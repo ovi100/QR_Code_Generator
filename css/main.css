@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  height: 100vh;
+  background: #262626;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.qrc-generator {
+  background: #fff;
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center; }
+  .qrc-generator h3 {
+    margin-bottom: 15px; }
+  .qrc-generator .input-box .qr-input {
+    border: 1px solid #ddd;
+    padding: 10px; }
+    .qrc-generator .input-box .qr-input:focus {
+      outline: none; }
+  .qrc-generator .input-box .action-button {
+    display: flex;
+    align-items: center;
+    gap: 10px; }
+    .qrc-generator .input-box .action-button button {
+      width: 100%;
+      background: #262626;
+      border: 0;
+      color: #fff;
+      cursor: pointer;
+      display: block;
+      margin: 15px 0;
+      padding: 15px;
+      text-align: center; }
+  .qrc-generator .qr-code {
+    border: 1px solid #ddd;
+    display: none;
+    padding: 10px; }
+
+/*# sourceMappingURL=main.css.map */
